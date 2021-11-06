@@ -9,9 +9,13 @@
 }
 
 .btn-purple {
-  @apply bg-bookmark-purple text-white;
+  @apply bg-dish-purple text-white;
 }
 
 .btn-white {
   @apply bg-bookmark-white;
+}
+
+.btn-red {
+  @apply bg-dish-red text-white;
 }
