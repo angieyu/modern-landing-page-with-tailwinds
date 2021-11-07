@@ -14,16 +14,27 @@
     <link rel="stylesheet" href="./style.css" />
     <title>MyTV Landing Page</title>
   </head>
-  <body class="font-Poppins">
+  <body class="font-Roboto h-screen">
     <!-- Hero -->
     <section
-      class="w-full bg-origin-border bg-no-repeat bg-cover bg-left-top bg-opacity-60 bg-grey-800"
+      class="
+        w-full
+        bg-origin-border
+        bg-no-repeat
+        bg-cover
+        bg-left-top
+        bg-opacity-60
+        bg-grey-800
+        pt-1
+      "
       style="background-image: url('./imgs/woman-picking-tv-show.jpeg')"
     >
       <!-- Header -->
       <header>
         <nav class="container flex items-center py-4 mt-4 sm:mt-12">
-          <div class="py-1"><img src="./imgs/logo-bookmark.svg" alt="" /></div>
+          <div class="py-1 text-bookmark-white uppercase text-lg tracking-wide">
+            <p>MyTV</p>
+          </div>
           <ul
             class="
               hidden
@@ -35,6 +46,8 @@
               text-bookmark-white
               uppercase
               text-xs
+              font-bold
+              tracking-wide
             "
           >
             <li class="cursor-pointer">Features</li>
@@ -68,18 +81,29 @@
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h2
             class="
-              text-bookmark-white text-3xl
+              text-dish-white text-3xl
               md:text-4
               lg:text-5xl
               text-center
               lg:text-left
               mb-6
+              font-bold
+              tracking-wide
             "
           >
             MyTV
           </h2>
-          <p class="text-bookmark-white text-lg text-center lg:text-left mb-6">
-           All the TV programs you want
+          <p
+            class="
+              text-dish-white
+              font-bold
+              tracking-wide
+              text-lg text-center
+              lg:text-left
+              mb-6
+            "
+          >
+            All the TV programs you want
           </p>
           <div class="flex justify-center flex-wrap gap-6">
             <button
@@ -96,7 +120,6 @@
             </button>
           </div>
         </div>
-
       </div>
     </section>
 
@@ -106,9 +129,7 @@
       <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
         <h1 class="text-3xl text-center text-bookmark-blue">Features</h1>
         <p class="text-center text-bookmark-grey mt-4">
-          Our aim is to make it quick and easy for you to access your favourite
-          websites. Your bookmarks sync between your devices so you can access
-          them on the go.
+          The most reliable service and the best entertainment
         </p>
       </div>
       <!-- Feature #1 -->
@@ -133,7 +154,7 @@
           </div>
           <!-- Content -->
           <div class="flex flex-1 flex-col items-center lg:items-start">
-            <h1 class="text-3xl text-bookmark-blue">Bookmark in one click</h1>
+            <h1 class="text-3xl text-bookmark-blue">Watch the NFL</h1>
             <p
               class="
                 text-bookmark-grey
@@ -144,15 +165,13 @@
                 lg:w-full
               "
             >
-              Organize your bookmarks however you like. Our simple drag-and-drop
-              interface gives you complete control over how you manage your
-              favourite sites.
+              Watch the game in the best quality
             </p>
             <button
               type="button"
               class="btn btn-purple hover:bg-bookmark-white hover:text-black"
             >
-              More Info
+              Ask us about NFL Specials
             </button>
           </div>
         </div>
@@ -194,7 +213,7 @@
           </div>
           <!-- Content -->
           <div class="flex flex-1 flex-col items-center lg:items-start">
-            <h1 class="text-3xl text-bookmark-blue">Intelligent search</h1>
+            <h1 class="text-3xl text-bookmark-blue">Buy a new TV</h1>
             <p
               class="
                 text-bookmark-grey
@@ -205,14 +224,13 @@
                 lg:w-full
               "
             >
-              Our powerful search feature will help you find saved sites in no
-              time at all. No need to crawl through all of your bookmarks.
+              Buy a new TV during the end of season sale
             </p>
             <button
               type="button"
               class="btn btn-purple hover:bg-bookmark-white hover:text-black"
             >
-              More Info
+              Ask us about buying a new TV
             </button>
           </div>
         </div>
@@ -254,7 +272,7 @@
           </div>
           <!-- Content -->
           <div class="flex flex-1 flex-col items-center lg:items-start">
-            <h1 class="text-3xl text-bookmark-blue">Share your bookmarks</h1>
+            <h1 class="text-3xl text-bookmark-blue">Discover new channels</h1>
             <p
               class="
                 text-bookmark-grey
@@ -265,14 +283,13 @@
                 lg:w-full
               "
             >
-              Easily share your bookmarks and collections with others. Create a
-              shareable link that you can send at the click of a button.
+              We have something for everyone
             </p>
             <button
               type="button"
               class="btn btn-purple hover:bg-bookmark-white hover:text-black"
             >
-              More Info
+              Talk to us about new channels
             </button>
           </div>
         </div>
@@ -294,14 +311,10 @@
       </div>
     </section>
 
-
     <!-- Contact Us -->
     <section class="bg-dish-gold text-white py-20">
       <div class="container">
         <div class="sm:w-3/4 lg:w-2/4 mx-auto">
-          <p class="font-light uppercase text-center mb-8">
-            35,000+ ALREADY JOINED
-          </p>
           <h1 class="text-3xl text-center">
             Stay up-to-date with what we’re doing
           </h1>
@@ -313,11 +326,7 @@
             />
             <button
               type="button"
-              class="
-                btn
-                bg-dish-red
-                hover:bg-bookmark-white hover:text-black
-              "
+              class="btn bg-dish-red hover:bg-bookmark-white hover:text-black"
             >
               Contact Us
             </button>
@@ -338,16 +347,14 @@
             gap-12
           "
         >
-          <img src="./imgs/logo-bookmark-white.png" alt="" />
+          <div class="py-1 text-bookmark-white uppercase text-lg tracking-wide">
+            <p>MyTV</p>
+          </div>
           <ul class="flex text-white uppercase gap-12 text-xs">
             <li class="cursor-pointer">Features</li>
             <li class="cursor-pointer">Pricing</li>
             <li class="cursor-pointer">Contact</li>
           </ul>
-        </div>
-        <div class="flex gap-10 mt-12 md:mt-0">
-          <li><i class="text-white text-2xl fab fa-twitter"></i></li>
-          <li><i class="text-white text-2xl fab fa-facebook-square"></i></li>
         </div>
       </div>
     </footer>

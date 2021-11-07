@@ -13,10 +13,11 @@ module.exports = {
         "dish-blue": "#003B77",
         "dish-gold": "#BA9E6B",
         "dish-purple": "#46237A",
+        "dish-white": "#FEFEFE"
       },
     },
     fontFamily: {
-      Poppins: ["Poppins, sans-serif"],
+      Roboto: ["Roboto, sans-serif"],
     },
     container: {
       center: true,
